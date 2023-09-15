@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UPDATE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>i厦技Lite更新页</h1>
+    <ul id="linkList">
+        <li>
+            <a href="https://raw.githubusercontent.com/wentao883/TG-wxgqlfx_PDSX/main/pdyjdy_PDSX">最新版</a>
+            <button onclick="copyLink('https://www.example.com/link1')">复制链接</button>
+            <br>
+            <span class="comment">版本号：1.0.8.6</span>
+        </li>
+        <li>
+            <a href="https://raw.githubusercontent.com/wentao883/TG-wxgqlfx_QZFL/main/pdyjdy_QZFL">i厦技Lite_1085</a>
+            <button onclick="copyLink('https://www.example.com/link2')">复制链接</button>
+            <br>
+            <span class="comment">版本号：1.0.8.5</span>
+        </li>
+        <!-- 可以继续添加更多的链接和按钮 -->
+    </ul>
+
+    <!-- 告示栏 -->
+    <div id="popup">
+        <div id="countdownContainer">
+            <div id="countdownBar"></div>
+            <div id="countdownText">5秒后关闭</div>
+        </div>
+        <br>
+        <p>其实选择哪个版本都没事，因为小版本更新主要就是细节优化，后端都是一样的</p>
+        <br>
+        <button onclick="closePopup()">关闭</button>
+    </div>
+
+    <!-- 复制成功告示 -->
+    <div id="copySuccess">✅复制成功</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
